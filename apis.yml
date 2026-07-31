@@ -1,19 +1,45 @@
 aid: oneasp
-name: oneasp
-description: oneasp is a company surfaced as a portfolio company of qiming and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/oneasp.png
+name: OneASP
+description: OneASP (Application Security Protection) is the runtime application security
+  product line of OneAPM (Beijing Blue Ocean Xuntong Technology / 蓝海讯通), a Qiming-backed
+  Chinese IT operations management (ITOM) and application performance monitoring vendor
+  founded in 2008. OneASP delivered runtime application self-protection (RASP) for
+  web applications, and was also marketed internationally under the OneRASP brand.
+  As of enrichment (2026-07), no standalone OneASP developer portal, public API, or
+  SDK surface resolves - the oneasp.com brand domain no longer resolves and OneASP
+  appears to be a legacy/absorbed product line of the parent OneAPM platform.
 url: https://raw.githubusercontent.com/api-evangelist/oneasp/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - qiming
+x-parent: OneAPM (蓝海讯通 / Beijing Blue Ocean Xuntong Technology)
 x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Security
+- Application Security
+- RASP
+- Runtime Application Self-Protection
+- Monitoring
+- APM
+- China
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +49,10 @@ maintainers:
 common:
 - type: Website
   url: https://oneasp.com
+- type: CompanyRegistry
+  url: https://www.qimingvc.com/en/portfolio
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
